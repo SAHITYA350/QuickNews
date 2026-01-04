@@ -1,4 +1,5 @@
-# React + Vite
+<img width="1912" height="1011" alt="image" src="https://github.com/user-attachments/assets/b8cbfb40-7515-4b68-afd0-1a2ceee2d0eb" />
+QuicNews free source code
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
