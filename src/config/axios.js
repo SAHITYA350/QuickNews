@@ -8,5 +8,13 @@ const api = axios.create({
   },
 });
 
+// attach API key automatically
+api.interceptors.request.use((config) => {
+  config.params = {
+    ...config.params,
+    apiKey: import.meta.env.VITE_API_KEY,
+  };
+  return config;
+});
 
 export default api;
